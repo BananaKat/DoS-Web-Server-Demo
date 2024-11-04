@@ -1,0 +1,100 @@
+2024-11-04 00:06:36,585 - Started simple TCP server
+2024-11-04 00:06:45,887 - Started simple TCP server
+2024-11-04 00:06:45,887 - Running on address 127.0.0.1:8080
+2024-11-04 00:06:48,422 - Accepted connection from ('127.0.0.1', 51576)
+2024-11-04 00:06:48,425 - Parsing request line
+2024-11-04 00:06:48,426 - GET / HTTP/1.1
+2024-11-04 00:06:48,426 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:06:48,426 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:06:48,428 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:06:48,428 - Closed connection from ('127.0.0.1', 51576)
+2024-11-04 00:11:57,545 - 
+Finished successfully
+2024-11-04 00:54:47,673 - Started simple TCP server
+2024-11-04 00:54:47,673 - Running on address 127.0.0.1:8080
+2024-11-04 00:54:52,445 - Accepted connection from ('127.0.0.1', 48408)
+2024-11-04 00:54:52,446 - Parsing request line
+2024-11-04 00:54:52,448 - GET / HTTP/1.1
+2024-11-04 00:54:52,450 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:52,452 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:52,453 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:52,457 - Closed connection from ('127.0.0.1', 48408)
+2024-11-04 00:54:53,909 - Accepted connection from ('127.0.0.1', 48412)
+2024-11-04 00:54:53,910 - Parsing request line
+2024-11-04 00:54:53,910 - GET / HTTP/1.1
+2024-11-04 00:54:53,910 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:53,910 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:53,910 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:53,910 - Closed connection from ('127.0.0.1', 48412)
+2024-11-04 00:54:54,394 - Accepted connection from ('127.0.0.1', 48418)
+2024-11-04 00:54:54,396 - Parsing request line
+2024-11-04 00:54:54,396 - GET / HTTP/1.1
+2024-11-04 00:54:54,397 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:54,399 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:54,399 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:54,400 - Closed connection from ('127.0.0.1', 48418)
+2024-11-04 00:54:55,229 - Accepted connection from ('127.0.0.1', 48428)
+2024-11-04 00:54:55,229 - Parsing request line
+2024-11-04 00:54:55,229 - GET / HTTP/1.1
+2024-11-04 00:54:55,229 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:55,229 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:55,229 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:55,230 - Closed connection from ('127.0.0.1', 48428)
+2024-11-04 00:54:56,135 - Accepted connection from ('127.0.0.1', 48430)
+2024-11-04 00:54:56,136 - Parsing request line
+2024-11-04 00:54:56,136 - GET / HTTP/1.1
+2024-11-04 00:54:56,136 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:56,136 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:56,137 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:56,138 - Closed connection from ('127.0.0.1', 48430)
+2024-11-04 00:54:57,095 - Accepted connection from ('127.0.0.1', 48432)
+2024-11-04 00:54:57,095 - Parsing request line
+2024-11-04 00:54:57,095 - GET / HTTP/1.1
+2024-11-04 00:54:57,095 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:57,095 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:57,095 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:57,096 - Closed connection from ('127.0.0.1', 48432)
+2024-11-04 00:54:57,559 - Accepted connection from ('127.0.0.1', 48440)
+2024-11-04 00:54:57,559 - Parsing request line
+2024-11-04 00:54:57,559 - GET / HTTP/1.1
+2024-11-04 00:54:57,560 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:57,560 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:57,560 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:57,560 - Closed connection from ('127.0.0.1', 48440)
+2024-11-04 00:54:57,932 - Accepted connection from ('127.0.0.1', 48448)
+2024-11-04 00:54:57,932 - Parsing request line
+2024-11-04 00:54:57,933 - GET / HTTP/1.1
+2024-11-04 00:54:57,933 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:57,933 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:57,933 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:57,933 - Closed connection from ('127.0.0.1', 48448)
+2024-11-04 00:54:58,297 - Accepted connection from ('127.0.0.1', 48450)
+2024-11-04 00:54:58,298 - Parsing request line
+2024-11-04 00:54:58,298 - GET / HTTP/1.1
+2024-11-04 00:54:58,299 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:58,299 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:58,299 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:58,300 - Closed connection from ('127.0.0.1', 48450)
+2024-11-04 00:54:58,663 - Accepted connection from ('127.0.0.1', 48462)
+2024-11-04 00:54:58,663 - Parsing request line
+2024-11-04 00:54:58,664 - GET / HTTP/1.1
+2024-11-04 00:54:58,664 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:58,664 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:58,664 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:58,664 - Closed connection from ('127.0.0.1', 48462)
+2024-11-04 00:54:59,009 - Accepted connection from ('127.0.0.1', 48478)
+2024-11-04 00:54:59,009 - Parsing request line
+2024-11-04 00:54:59,009 - GET / HTTP/1.1
+2024-11-04 00:54:59,009 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:59,009 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:59,010 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:59,010 - Closed connection from ('127.0.0.1', 48478)
+2024-11-04 00:54:59,331 - Accepted connection from ('127.0.0.1', 48490)
+2024-11-04 00:54:59,333 - Parsing request line
+2024-11-04 00:54:59,334 - GET / HTTP/1.1
+2024-11-04 00:54:59,334 - {'Host': '127.0.0.1:8080', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'en-GB,en;q=0.5', 'Accept-Encoding': 'gzip, deflate, br', 'DNT': '1', 'Sec-GPC': '1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1'}
+2024-11-04 00:54:59,335 - b'HTTP/1.1 200 OK \r\n'
+2024-11-04 00:54:59,337 - b'Content-Type: text/html\r\nContent-Length: 158\r\nConnection: close'
+2024-11-04 00:54:59,337 - Closed connection from ('127.0.0.1', 48490)
+2024-11-04 01:09:49,170 - 
+Finished successfully
