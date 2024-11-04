@@ -51,7 +51,6 @@ class HTTPRequestHandler:
     def handle(self) -> None:
         # Anything but GET or HEAD will return 405
         # POST will return a 403
-
         self._parse_request()
 
         if not self._validate_path():
@@ -88,7 +87,6 @@ class HTTPRequestHandler:
 
     def _write_response_line(self, status_code: int) -> None:
         reponse_line = f'HTTP/1.1 {status_code} {HTTPStatus(status_code).phrase} \r\n'
-        # log_message(reponse_line.encode())
         self.response_stream.write(reponse_line.encode())
 
     def _write_headers(self, *args, **kwargs) -> None:
@@ -97,17 +95,15 @@ class HTTPRequestHandler:
         header_lines = '\r\n'.join(
             f'{k}: {v}' for k, v in headers_copy.items()
         )
-        # log_message(header_lines.encode())
         self.response_stream.write(header_lines.encode())
+
         # Mark the end of the headers
         self.response_stream.write(b'\r\n\r\n')
 
     def _parse_request(self):
         # Parse the request line
-        # log_message('Parsing request line')
         requestline = self.request_stream.readline().decode()
         requestline = requestline.rstrip('\r\n')
-        # log_message(requestline)
 
         if not requestline:
             raise ValueError("Empty requestline received")
@@ -124,8 +120,6 @@ class HTTPRequestHandler:
             header = line.rstrip('\r\n').split(': ')
             headers[header[0]] = header[1]
             line = self.request_stream.readline().decode()
-
-        # log_message(headers)
 
     def _validate_path(self) -> bool:
         self.path = os.path.join(os.getcwd(), self.path.lstrip('/'))
@@ -215,13 +209,16 @@ class TCPServer:
                 )
                 # Simulate heavy process
                 time.sleep(PROCESS_TIME)
+
         except BrokenPipeError:
             log_message(
                 f'Connection error from {addr}: Broken pipe (client disconnected)',
                 RED
             )
+
         except Exception as error:
             log_message(f'Connection error from {addr}: {error}', RED)
+
         finally:
             self.semaphore.release()
             log_message(f'Closed connection from {addr}', BLUE)
@@ -242,8 +239,10 @@ class TCPServer:
 def get_max_connections() -> int:
     try:
         max_conns = int(input('Enter the maximum number of connections: '))
+
     except KeyboardInterrupt:
         exit('\nCancelled server run')
+
     except ValueError:
         exit("Invalid input: Max connections must be an integer")
 
@@ -255,6 +254,7 @@ def run_tcp_server(max_conns: int) -> None:
         with TCPServer((LOCALHOST, PORT), HTTPRequestHandler, max_conns) as server:
             log_message(f'TCP Server listening on address {LOCALHOST}:{PORT}')
             server.serve_forever()
+
     except OSError as error:
         if error.errno == 98:
             log_message(
@@ -266,5 +266,5 @@ def run_tcp_server(max_conns: int) -> None:
 if __name__ == '__main__':
     max_conns = get_max_connections()
 
-    log_message('Started simple TCP server')
+    log_message('Started simple unprotected TCP server')
     run_tcp_server(max_conns)
